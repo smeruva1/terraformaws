@@ -1,7 +1,5 @@
 provider "aws" {
-    region = "us-east-1"
-    access_key = "AKIAWDBRKRIYKCALXCOC"
-    secret_key = "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"
+    region = "us-east-1" 
 }
 
 resource "aws_instance" "firstwebserver-tf" {
